@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "poc-express",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "rm -rf dist | true && mkdir dist && cp index.js dist/index.js && cp package.json dist/package.json && cp package-lock.json dist/"
+  }
+}
